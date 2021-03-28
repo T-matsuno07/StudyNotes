@@ -24,3 +24,10 @@ function judge_test_file(){
   return 0
 }
 ```
+
+## ゼロ埋め
+数字を4桁にしたい場合は以下のコマンド
+```bash
+printf %04d 数字
+seq -f %04g 1 10   # 0001から0010の文字列を作成する
+```
