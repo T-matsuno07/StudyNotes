@@ -8,3 +8,4 @@
 
 - [bash基本構文(if)](./bash/bash_if.md)
 - [bash基本構文(loop)](./bash/bash_loop.md)
+- [bash検索コマンド(find/grep)](./bash/find_grep.md)
