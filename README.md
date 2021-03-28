@@ -2,7 +2,9 @@
 
 # Git
 
-[Gitメインページ](./git/git_index.md);
+[Gitメインページ](./git/README.md);
+
+- [git戻す系操作](./git/git_back.md)
 
 # bash
 
