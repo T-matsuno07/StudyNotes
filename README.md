@@ -13,3 +13,7 @@
 - [bash基本構文(loop)](./bash/bash_loop.md)
 - [bash検索コマンド(find/grep)](./bash/find_grep.md)
 - [bash 自作関数(function)](./bash/bash_function.md)
+
+# Visual Studio Code
+
+- [キーバインド・スニペット](./vscode/keybind_snippet.md)
