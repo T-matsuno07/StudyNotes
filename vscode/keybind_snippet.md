@@ -28,6 +28,31 @@ HTMLのスニペットファイル「html.json」へ以下の記載を追加す�
 }
 ````
 
+## パラグラフスニペットファイル
+````json
+"new_paragraph": {
+  "prefix": "pParagraph",
+  "body": [
+    "<p>",
+    "  $0",
+    "</p>",
+  ],
+  "description": "htmlの段落タグ<p>を挿入"
+},
+````
+
+````json
+{
+    "key": "ctrl+enter",
+    "command": "editor.action.insertSnippet",
+    "args": {
+        "langId": "html",
+        "name": "new_paragraph"
+    },
+    "when": "editorTextFocus && editorLangId == html"
+},
+````
+
 
 # Grep用キーバインド
  ````json
