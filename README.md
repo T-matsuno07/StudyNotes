@@ -1,5 +1,12 @@
 # 個人学習用ノード
 
+# 拡張正規表現
+
+```bash
+grep -E 
+sed -r 
+```
+
 # Git
 
 [Gitメインページ](./git/README.md);
