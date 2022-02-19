@@ -71,3 +71,22 @@
 | 読み取り可能なら真 | -r |
 | 書き込み可能なら真 | -w |
 | 実行可能なら真 | -x |
+
+ファイルの有無で処理を分岐する
+
+```bash
+if [ -e PATH ]; then
+  # ファイルが存在する時の処理
+else
+  # ファイルが存在しない時の処理
+fi
+```
+オリジナルファイルが存在しない時にバックアップを作成
+
+```bash
+FilePath="/etc/..."
+if [ ! -e ${FilePath}.org ]; then
+  cp -p ${FilePath} ${FilePath}.org
+fi
+```
+
